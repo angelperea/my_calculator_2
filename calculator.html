@@ -18,6 +18,10 @@
 			var num = document.getElementById("n1");
 			num.value = Math.pow(num.value, 4);			
 		}
+		function sine() {
+			var num = document.getElementById("n1");
+			num.value = Math.sin(num.value);
+		}		
 	</script>
 </head>
 <body>
@@ -28,5 +32,6 @@
 	<button onclick="square()"> x^2 </button>
 	<button onclick="inverse()"> 1/x </button>
 	<button onclick="fourthpower()"> x^4 </button>
+	<button onclick="sine()"> sin(x) </button>
 </body>
 </html>
